@@ -1,8 +1,7 @@
 -- "require 'custom/keymaps'" place this into .config/nvim/init.lua
+-- insert this file into ~/.config/nvim/lua/custom folder
 
 -- Helpers:
-local opts = { noremap = true, silent = true }
-local term_opts = { silent = true }
 local function get_comment_chars()
   local filetype = vim.bo.filetype
   local comment_chars = {
